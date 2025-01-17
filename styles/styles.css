@@ -1,0 +1,50 @@
+
+/* header styles */
+
+*{
+   /* margin-left: 160px;
+   margin-right: 160px; */
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+
+}
+.header-section{
+    margin-bottom: 80px;
+}
+
+/* main section styles */
+
+.pillars-container{
+    display: flex;
+    justify-content: space-around;
+}
+.pillars-section{
+    margin-bottom: 80px;
+}
+
+.vision-section{
+    margin-bottom: 80px;
+}
+.vision-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.quotation{
+    background-image: url("../assets/quote-bg.png");
+    background-position: top-left;
+    background-repeat: no-repeat;
+}
+
+.opinion-container{
+    display: flex;
+    justify-content: space-between;
+   
+}
