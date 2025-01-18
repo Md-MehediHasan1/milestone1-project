@@ -230,42 +230,38 @@ nav ul li{
 }
 .vision-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 32px;
     margin-bottom: 30px;
     gap: 24px;
 }
 .vision-item{
-    box-shadow: 0px 6px 50px 0px rgba(84, 144, 245, 0.2);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     padding: 32px;
     border-radius: 16px;
 }
 .quotation{
     background-image: url("../assets/quote-bg.png");
-    background-position: left-top;
+    background-position:left-top;
     background-repeat: no-repeat;
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-size: 16px;
+    
 
 }
 .quotes{
     background-color: rgba(255, 255, 255, 1);
-    box-shadow: 0px 6px 50px 0px rgba(14, 14, 14, 0.15);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     font-weight: 1280px;
     height: cover;
     padding: 48px 24px;
 }
+
 /* opinion section styles */
-/* .opinion-container{
-    display: flex;
-    justify-content: space-between;
-   
-} */
 
 .table-container{
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 1280px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
 }
 table{
@@ -298,10 +294,10 @@ select{
 
 }
 
-
 .opinion-section{
     margin-bottom: 80px;
 }
+
 
 /* recent news section styles */
 .recent-news-section{
